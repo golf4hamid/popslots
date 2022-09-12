@@ -62,11 +62,11 @@ body {
  * Header
  */
 .masthead {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .masthead-brand {
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 .nav-masthead .nav-link {
@@ -125,8 +125,6 @@ body {
 @media (min-width: 40em) {
     /* Pull out the header and footer */
     .masthead {
-        position: fixed;
-        top: 0;
     }
 
     .mastfoot {
