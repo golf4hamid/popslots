@@ -51,6 +51,8 @@
 .post_container > .container {
     overflow-x: scroll;
     height: 240px;
+    background-color: rgba(0, 0, 0, 0.72);
+    border: 2px solid #928c8c;
 }
 
 .winner-cont {
