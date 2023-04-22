@@ -1,0 +1,12 @@
+li p {
+    display: inline;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+li p::nth-child(2) {
+    margin-left: 40px;
+}

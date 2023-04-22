@@ -1,0 +1,62 @@
+.winner-cont {
+    background-color: red !important;
+    padding: 10px !important;
+    border: 1px solid  #000;
+}
+
+li p {
+    display: inline;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: left;
+    text-decoration: none;
+}
+
+li p::nth-child(2) {
+    margin-left: 40px;
+}
+
+.commenter_name {
+    text-decoration: none;
+    padding-left: 10ox;
+    padding-right: 10px;
+}
+
+.commenter_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.spin_image {
+    animation: bounce-rotate 2s ease-in-out;
+    transform-origin: center bottom;
+}
+
+@keyframes bounce-rotate {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+
+    25% {
+        transform: translateY(-50px) rotate(-20deg);
+    }
+
+    50% {
+        transform: translateY(0) rotate(20deg);
+    }
+
+    75% {
+        transform: translateY(-25px) rotate(-10deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
